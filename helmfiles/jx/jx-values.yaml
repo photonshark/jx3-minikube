@@ -30,6 +30,7 @@ jxRequirements:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.105.151.204
   environments:
   - key: dev
     owner: photonshark
