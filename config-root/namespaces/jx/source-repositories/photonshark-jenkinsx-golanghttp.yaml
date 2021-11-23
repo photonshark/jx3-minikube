@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: photonshark
+    provider: github
+    repository: jenkinsx-golanghttp
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: photonshark-jenkinsx-golanghttp
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/photonshark/jenkinsx-golanghttp.git
+  org: photonshark
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jenkinsx-golanghttp
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/photonshark/jenkinsx-golanghttp
